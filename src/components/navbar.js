@@ -14,8 +14,8 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSignInAlt, faCampground, faClipboard, faListUl, faSmile, faDirections } from '@fortawesome/free-solid-svg-icons'
 
 const drawerWidth = 240;
 
@@ -125,9 +125,16 @@ function Navbar() {
         </div>
         <Divider />
         <List>
-          {['Sign Up', 'Camping Info', 'Comp Rules', 'Route List', 'Sponsors'].map((text, index) => (
+          {['Sign Up', 'Camping Info', 'Comp Rules', 'Route List', 'Directions', 'Sponsors'].map((text, index) => (
             <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+              <ListItemIcon>{index === 0 ? <FontAwesomeIcon icon={faSignInAlt} size="2x" /> : 
+                             index === 1 ? <FontAwesomeIcon icon={faCampground} size="2x" /> : 
+                             index === 2 ? <FontAwesomeIcon icon={faClipboard} size="3x" /> :
+                             index === 3 ? <FontAwesomeIcon icon={faListUl} size="2x" /> :
+                             index === 4 ? <FontAwesomeIcon icon={faDirections} size="2x" /> :
+                             index === 5 ? <FontAwesomeIcon icon={faSmile} size="2x" /> :
+                             null}
+              </ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
           ))}
