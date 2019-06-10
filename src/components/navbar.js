@@ -126,13 +126,13 @@ function Navbar() {
         <Divider />
         <List>
           {['Sign Up', 'Camping Info', 'Comp Rules', 'Route List', 'Directions', 'Sponsors'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>{index === 0 ? <FontAwesomeIcon icon={faSignInAlt} size="2x" /> : 
-                             index === 1 ? <FontAwesomeIcon icon={faCampground} size="2x" /> : 
-                             index === 2 ? <FontAwesomeIcon icon={faClipboard} size="3x" /> :
-                             index === 3 ? <FontAwesomeIcon icon={faListUl} size="2x" /> :
-                             index === 4 ? <FontAwesomeIcon icon={faDirections} size="2x" /> :
-                             index === 5 ? <FontAwesomeIcon icon={faSmile} size="2x" /> :
+            <ListItem button key={text} id={index}>
+              <ListItemIcon>{index === 0 ? <FontAwesomeIcon icon={faSignInAlt} size="2x" aria-labelledby={"#" + index} /> : 
+                             index === 1 ? <FontAwesomeIcon icon={faCampground} size="2x" aria-labelledby={"#" + index}/> : 
+                             index === 2 ? <FontAwesomeIcon icon={faClipboard} size="3x" aria-labelledby={"#" + index}/> :
+                             index === 3 ? <FontAwesomeIcon icon={faListUl} size="2x" aria-labelledby={"#" + index}/> :
+                             index === 4 ? <FontAwesomeIcon icon={faDirections} size="2x" aria-labelledby={"#" + index}/> :
+                             index === 5 ? <FontAwesomeIcon icon={faSmile} size="2x" aria-labelledby={"#" + index}/> :
                              null}
               </ListItemIcon>
               <ListItemText primary={text} />
