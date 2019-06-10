@@ -1,1 +1,17 @@
+body {
+    background-color: rgb(250, 12, 131);
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Brush Script Mt;
+    font-size: 50pt;
+}
+
+h2 {
+    text-align: center;
+    font-family: American Typewriter;
+    font-size: 20pt;
+}
 

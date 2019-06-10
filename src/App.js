@@ -6,6 +6,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <h1>Jack Off Climbing Competition</h1>
+      <h2>Jacks Canyon, Arizona | October 15, 2019</h2>
     </div>
   );
 }
