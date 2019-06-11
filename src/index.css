@@ -1,17 +1,33 @@
 body {
-    background-color: rgb(250, 12, 131);
     padding: 0px;
 }
-
+/* Welcome Page */
 h1 {
     text-align: center;
-    font-family: Brush Script Mt;
-    font-size: 50pt;
+    /* font-family: Brush Script Mt; */
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 70pt;
 }
 
 h2 {
     text-align: center;
     font-family: American Typewriter;
     font-size: 20pt;
+    
 }
+#title
+{
+    height: 100%;
+    padding: 30px;
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+
 
