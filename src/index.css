@@ -3,17 +3,19 @@ body {
 }
 /* Welcome Page */
 h1 {
-    text-align: center;
+    text-align: right;
     /* font-family: Brush Script Mt; */
     /* font-family: 'Comfortaa', cursive; */
     font-family: 'Amatic SC', cursive;
     font-size: 70pt;
+    color: whitesmoke
 }
 
 h2 {
-    text-align: center;
+    text-align: right;
     font-family: American Typewriter;
     font-size: 20pt;
+    color: whitesmoke;
     
 }
 #title
@@ -25,8 +27,11 @@ h2 {
     margin: auto;
     margin-top: -100px;
     position: absolute;
-    top: 50%;
     width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0, 0, 0, 0.8)), url("images/jacks_onlooker.jpg");
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
 }
 
 
