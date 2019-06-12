@@ -8,7 +8,7 @@ h1 {
     /* font-family: 'Comfortaa', cursive; */
     font-family: 'Amatic SC', cursive;
     font-size: 70pt;
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 h2 {
@@ -24,14 +24,15 @@ h2 {
     padding: 30px;
     left: 0;
     line-height: 200px;
-    margin: auto;
     margin-top: -100px;
-    position: absolute;
+    background-position: absolute;
     width: 100%;
     background: linear-gradient(to right, rgba(0,0,0,0), rgba(0, 0, 0, 0.8)), url("images/jacks_onlooker.jpg");
     background-size: cover;
     z-index: -1;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
 
