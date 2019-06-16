@@ -22,47 +22,108 @@ h3 {
 }
 #title
 {
-    height: 100%;
+    height: 50%;
     padding: 30px;
     left: 0;
     line-height: 200px;
     margin-top: -100px;
     background-position: absolute;
     width: 100%;
-    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0, 0, 0, 0.8)), url("images/jacks_onlooker.jpg");
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0, 0, 0, 0.8)), url("images/peace.jpg");
     background-size: cover;
     z-index: -1;
     background-repeat: no-repeat;
     background-attachment: fixed;   
 }
 
+/* For the commonly-used */
+
+#center-text {
+    text-align:center;
+}
+
+/* About page */
+
+#about-div {
+    padding:100px;
+    padding-top:150px;
+    background-color:white;
+    color:solid black;
+}
+
+#about-text {
+    text-align:center;
+    color:black;
+}
+
+
 /* Registration page */
 
-#registration-div{
-    height:50vh;
-    text-align: center;
+#signup-div{
+    height:100%;
+    padding: 100px;
+    padding-top:150px;
+    left: 0;
+    line-height: 200px;
+    background-position: absolute;
+    width: 100%;
+    background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url("images/amalia.jpg");
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    text-align: left;
+    color:white;
+    
 }
 
-#signup-title{
+
+#signup-div-left {
     text-align: center;
-    color: black;
-    margin: 10px;
+    width:50%;
 }
-#signup-description{
-    border: solid black;
-    border-radius: 20px;
-    margin: 100px 30% 0px 30%;
-    padding: 20px;
-}
-#signup{
-    margin: 10vh auto 10vh auto;
+#signup-button{
     width: 400px;
     height: 100px;
-    border-radius: 10px;
+    border-radius: 1px;
     font-size: 40px;
-    background-color: black;
+    background-color: rgba(0, 255, 255, 0.3);
     color: whitesmoke;
 }
+
+#signup-button:hover {
+    background-color:rgba(0, 114, 114, 0.9);
+}
+
+#signup-button:active {
+    background-color:rgba(0,0,0,0)
+}
+
+
+table {
+    border-collapse:collapse;
+    width:100%;
+    margin-top:70px;
+    margin-bottom:30px;
+}
+
+th {
+    height:70px;
+    background-color:rgba(0, 255, 255, 0.3);
+    border-radius: 1px;
+}
+
+td {
+    height:50px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    border-left:none;
+    text-align:center;
+    vertical-align: center;
+}
+
 
 
 
