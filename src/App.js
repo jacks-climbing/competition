@@ -21,7 +21,7 @@ function App() {
       <div id="sign_up">
         <Registration />
       </div>
-      <div id="rules">
+      <div id="comp_rules">
         <Rules />
       </div>
     </div>
