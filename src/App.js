@@ -4,22 +4,19 @@ import Welcome from '../src/components/welcome';
 import './App.css';
 import About from './components/about';
 import Registration from './components/registration';
+import { Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      
-      <div class="parallax-container">
-        <div class="parallax">
-          <Navbar />
-          <Welcome />
-        </div>
-    </div>
-    <About />
-      <div class="row container">
-        <h2 class="header">Parallax</h2>
-        <Registration />
-      </div>
+      <Switch>
+            <Route exact path="/About" component={About} />
+            <Route exact path="/Sign_Up" component={Registration} />
+          </Switch>
+      <Navbar />
+      <Welcome />
+      <About />
+      <Registration />
     </div>
   );
 }
