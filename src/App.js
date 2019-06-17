@@ -4,7 +4,8 @@ import Welcome from '../src/components/welcome';
 import './App.css';
 import About from './components/about';
 import Registration from './components/registration';
-import { Switch, Route } from 'react-router-dom'
+import Rules from './components/rules';
+
 
 function App() {
   return (
@@ -18,9 +19,11 @@ function App() {
         <About />
       </div>
       <div id="sign_up">
-      <Registration />
+        <Registration />
       </div>
-      
+      <div id="rules">
+        <Rules />
+      </div>
     </div>
   );
 }
