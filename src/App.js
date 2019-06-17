@@ -4,6 +4,7 @@ import Welcome from '../src/components/welcome';
 import './App.css';
 import About from './components/about';
 import Registration from './components/registration';
+import Rules from './components/rules';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <div class="row container">
         <h2 class="header">Parallax</h2>
         <Registration />
+        <Rules />
       </div>
     </div>
   );
