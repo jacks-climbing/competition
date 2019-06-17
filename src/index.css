@@ -67,7 +67,7 @@ h3 {
     line-height: 200px;
     background-position: absolute;
     width: 100%;
-    background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url("images/amalia.jpg");
+    background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url("images/amalia.jpg");
     background-size: cover;
     z-index: -1;
     background-repeat: no-repeat;
@@ -87,12 +87,12 @@ h3 {
     height: 100px;
     border-radius: 1px;
     font-size: 40px;
-    background-color: rgba(0, 255, 255, 0.3);
+    background-color: rgba(0, 204, 255, 0.3);
     color: whitesmoke;
 }
 
 #signup-button:hover {
-    background-color:rgba(0, 114, 114, 0.9);
+    background-color:rgba(53, 115, 131, 0.9);
 }
 
 #signup-button:active {
@@ -109,7 +109,7 @@ table {
 
 th {
     height:70px;
-    background-color:rgba(0, 255, 255, 0.3);
+    background-color:rgba(0, 204, 255, 0.33);
     border-radius: 1px;
 }
 

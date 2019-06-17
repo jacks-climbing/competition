@@ -4,13 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import cyan from '@material-ui/core/colors/cyan';
 
 const theme = createMuiTheme({
     palette: {
-        primary: cyan,
-        secondary: cyan
-      }});
+        primary: {main:'#ff6d00'},
+      },
+    });
 
 ReactDOM.render(<MuiThemeProvider theme={theme} ><App /></MuiThemeProvider>, document.getElementById('root'));
 
