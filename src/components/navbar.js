@@ -16,6 +16,8 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSignInAlt, faCampground, faClipboard, faListUl, faSmile, faDirections } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from 'react-router-dom'
+
 
 const drawerWidth = 240;
 
@@ -126,6 +128,9 @@ function Navbar() {
         <Divider />
         <List>
           {['Sign Up', 'Camping Info', 'Comp Rules', 'Route List', 'Directions', 'Sponsors'].map((text, index) => (
+            <NavLink to={"/" + text.replace(/\s/g, "_")}
+                    style={{textDecoration:"none"}} 
+                    >
             <ListItem button key={text} id={index}>
               <ListItemIcon>{index === 0 ? <FontAwesomeIcon icon={faSignInAlt} size="2x" aria-labelledby={"#" + index} /> : 
                              index === 1 ? <FontAwesomeIcon icon={faCampground} size="2x" aria-labelledby={"#" + index}/> : 
@@ -137,6 +142,7 @@ function Navbar() {
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
+            </NavLink>
           ))}
         </List>
       </Drawer>
