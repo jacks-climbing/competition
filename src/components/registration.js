@@ -27,10 +27,11 @@ function Registration() {
                 </tr>
                 </table>
                 </Typography>
-            
-                <button id="signup-button" href="https://docs.google.com/forms/d/1FNyLfm4el5N7c6ufBUj0-AJMG-hXRUn_rqgRS_1LtiE/prefill">
+                <a href="https://docs.google.com/forms/d/1FNyLfm4el5N7c6ufBUj0-AJMG-hXRUn_rqgRS_1LtiE/prefill" target = 'blank'>
+                <button id="signup-button">
                     Sign Up
                 </button>
+                </a>
             </div>
         </div>
     )
