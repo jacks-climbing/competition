@@ -15,7 +15,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSignInAlt, faCampground, faClipboard, faListUl, faSmile, faDirections } from '@fortawesome/free-solid-svg-icons'
+import { faSignInAlt, faCampground, faClipboard, faListUl, faSmile, faDirections, faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom'
 
 
@@ -90,6 +90,8 @@ function Navbar() {
     setOpen(false);
   }
 
+ 
+
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -127,17 +129,20 @@ function Navbar() {
         </div>
         <Divider />
         <List>
-          {['Sign Up', 'Camping Info', 'Comp Rules', 'Route List', 'Directions', 'Sponsors'].map((text, index) => (
+          {['About', 'Sign Up', 'Comp Rules', 'Route List', 'Directions', 'Camping Info', 'Sponsors'].map((text, index) => (
             <NavLink to={"/" + text.replace(/\s/g, "_")}
-                    style={{textDecoration:"none"}} 
+                    style={{
+                      textDecoration:"none",
+                      color: 'black' }} 
                     >
-            <ListItem button key={text} id={index}>
-              <ListItemIcon>{index === 0 ? <FontAwesomeIcon icon={faSignInAlt} size="2x" aria-labelledby={"#" + index} /> : 
-                             index === 1 ? <FontAwesomeIcon icon={faCampground} size="2x" aria-labelledby={"#" + index}/> : 
-                             index === 2 ? <FontAwesomeIcon icon={faClipboard} size="3x" aria-labelledby={"#" + index}/> :
+            <ListItem button key={text} id={index}>  
+            <ListItemIcon>{index === 0 ? <FontAwesomeIcon icon={faQuestionCircle}        size="2x" aria-labelledby={"#" + index} /> :
+                            index === 1 ? <FontAwesomeIcon icon={faSignInAlt} size="2x" aria-labelledby={"#" + index} /> : 
+                             index === 2 ? <FontAwesomeIcon icon={faClipboard} size="2x" aria-labelledby={"#" + index}/> : 
                              index === 3 ? <FontAwesomeIcon icon={faListUl} size="2x" aria-labelledby={"#" + index}/> :
                              index === 4 ? <FontAwesomeIcon icon={faDirections} size="2x" aria-labelledby={"#" + index}/> :
-                             index === 5 ? <FontAwesomeIcon icon={faSmile} size="2x" aria-labelledby={"#" + index}/> :
+                             index === 5 ? <FontAwesomeIcon icon={faCampground} size="2x" aria-labelledby={"#" + index}/> :
+                             index === 6 ? <FontAwesomeIcon icon={faSmile} size="2x" aria-labelledby={"#" + index}/> :
                              null}
               </ListItemIcon>
               <ListItemText primary={text} />
