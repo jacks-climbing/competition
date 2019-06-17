@@ -9,14 +9,18 @@ import { Switch, Route } from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <Switch>
-            <Route exact path="/About" component={About} />
-            <Route exact path="/Sign_Up" component={Registration} />
-          </Switch>
+      
       <Navbar />
-      <Welcome />
-      <About />
+      <div id="home">
+        <Welcome />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="sign_up">
       <Registration />
+      </div>
+      
     </div>
   );
 }
