@@ -85,8 +85,7 @@ export default function TemporaryDrawer() {
       <AppBar
         position="fixed"
         className={clsx(classes.appBar, {
-          //eslint-disable-next-line
-          [classes.appBarShift]: open
+          // [classes.appBarShift]: open
         })}
       >
       <Toolbar>
@@ -95,8 +94,8 @@ export default function TemporaryDrawer() {
             aria-label="Open drawer"
             onClick={toggleDrawer('left', true)}
             edge="start"
-            //eslint-disable-next-line
-            className={clsx(classes.menuButton, open && classes.hide)}
+            
+            // className={clsx(classes.menuButton, open && classes.hide)}
           >
             <MenuIcon />
           </IconButton>
@@ -104,8 +103,8 @@ export default function TemporaryDrawer() {
       </AppBar>
       <main
         className={clsx(classes.content, {
-          //eslint-disable-next-line
-          [classes.contentShift]: open,
+         
+          // [classes.contentShift]: open,
         })}
       >
         <div className={classes.drawerHeader} />  
