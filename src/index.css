@@ -72,7 +72,7 @@ a{
     padding:100px;
     padding-top:150px;
     background-color:white;
-    color:solid black;
+    color: solid black;
 }
 
 .white-background-text {
@@ -158,6 +158,7 @@ th, td {
     height: 100vh;
     text-align: center;
     padding: 10%;
+    background-attachment: fixed;
 }
 #route-list-inner{
     height: 70vh;
