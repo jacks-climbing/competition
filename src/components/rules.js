@@ -24,12 +24,12 @@ const useStyles = makeStyles(theme => ({
 function Rules() {
     const classes = useStyles();
     return(
-        <div id="white-background-div">
+        <div className="white-background-div">
             <div className={classes.root}>
                 <Grid container spacing={3}>
                     <Grid item xs>
                     <Paper className={classes.paper}>
-                    <Typography variant="h2" id="white-background-text">
+                    <Typography variant="h2" className="white-background-text">
                         Rules
                     </Typography>
                     
@@ -43,7 +43,7 @@ function Rules() {
                     </Grid>
                     <Grid item xs>
                     <Paper className={classes.paper}>
-                    <Typography variant="h2" id="white-background-text">
+                    <Typography variant="h2" className="white-background-text">
                         Crag Stewardship
                     </Typography>
                     <Typography variant="h5">

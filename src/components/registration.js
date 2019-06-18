@@ -5,10 +5,10 @@ function Registration() {
     return(
         <div id="signup-div">
             <div id = 'signup-div-left'>
-                <Typography variant="h2" id = 'center-text'>
+                <Typography variant="h2" className='center-text'>
                     2019 Registration
                 </Typography>
-                <Typography variant="h4" id="left-text">
+                <Typography variant="h4">
                 <table>
                 <tr>
                     <th>Early Bird </th>

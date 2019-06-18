@@ -5,12 +5,12 @@ import './App.css';
 import About from './components/about';
 import Registration from './components/registration';
 import Rules from './components/rules';
+import Routes from './components/routes'
 
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App">   
       <Navbar />
       <div id="home">
         <Welcome />
@@ -23,6 +23,9 @@ function App() {
       </div>
       <div id="comp_rules">
         <Rules />
+      </div>
+      <div id="route_list">
+        <Routes />
       </div>
     </div>
   );

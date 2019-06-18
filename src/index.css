@@ -1,6 +1,8 @@
 body {
     padding: 0px;
+    margin: 0px;
 }
+
 /* Home Page */
 #home{
    
@@ -44,14 +46,28 @@ h3 {
 
 /* For the commonly-used */
 
-#center-text {
+.center-text {
     text-align:center;
+    margin: auto;
 }
 
+.white-text{
+    color: whitesmoke;
+}
+.black-text{
+    color: rgba(1,1,1)
+}
+a{
+    color: inherit;
+}
+
+.align-left{
+    text-align: left;
+}
 
 /* White Divider pages */
 
-#white-background-div {
+.white-background-div {
    
     padding:100px;
     padding-top:150px;
@@ -59,7 +75,7 @@ h3 {
     color:solid black;
 }
 
-#white-background-text {
+.white-background-text {
     text-align:center;
     color:black;
 }
@@ -134,7 +150,41 @@ th, td {
 }
 
 
+/* Route List  */
 
+#route-list-outer{
+    background: url("images/route-list-stock.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 10%;
+}
+#route-list-inner{
+    height: 70vh;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10%;
+    border-radius: 25px;
+}
+#route-button{
+    width: 300px;
+    height: 150px;
+    border-radius: 25px;
+    font-size: 40px;
+    background-color: rgba(255, 109, 0, 0.9);
+    color: (1,1,1);
+    padding: 5px;
+    margin: auto;
+
+}
+
+#route-button:hover {
+    background-color:rgba(255, 109, 0);
+}
+
+#route-button:active {
+    background-color:rgba(0,0,0,0)
+}
 
 
 
