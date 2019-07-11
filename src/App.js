@@ -5,7 +5,8 @@ import './App.css';
 import About from './components/about';
 import Registration from './components/registration';
 import Rules from './components/rules';
-import Routes from './components/routes'
+import Routes from './components/routes';
+import Directions from './components/directions';
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
       </div>
       <div id="route_list">
         <Routes />
+      </div>
+      <div id="directions">
+        <Directions />
       </div>
     </div>
   );

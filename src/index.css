@@ -65,6 +65,11 @@ a{
     text-align: left;
 }
 
+.image-contained{
+    width:100%;
+    vertical-align: center;
+}
+
 /* White Divider pages */
 
 .white-background-div {
@@ -79,6 +84,8 @@ a{
     text-align:center;
     color:black;
 }
+
+
 
 
 /* Registration page */
