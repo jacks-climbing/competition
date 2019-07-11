@@ -29,10 +29,9 @@ h3 {
 }
 #title
 {
-    height: 100%;
-    padding: 30px;
+    height:100%;
     left: 0;
-    line-height: 200px;
+    line-height: 100px;
     margin-top: -100px;
     background-position: absolute;
     width: 100%;

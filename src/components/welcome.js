@@ -4,6 +4,7 @@ function Welcome(){
     return(
         <div id="title">
             <h1>
+            <br />
             Jacks O' Lantern 
             <br/>
             Climbing Competition
