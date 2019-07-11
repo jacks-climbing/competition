@@ -7,6 +7,7 @@ import Registration from './components/registration';
 import Rules from './components/rules';
 import Routes from './components/routes';
 import Directions from './components/directions';
+import Camping from './components/camping';
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
       </div>
       <div id="directions">
         <Directions />
+      </div>
+      <div id="camping-info">
+        <Camping />
       </div>
     </div>
   );

@@ -26,7 +26,7 @@ function Directions() {
             <br />
             <Grid container spacing={3}>
                 <Grid item xs>
-                    <Typography variant="h5" className="black-text">
+                    <Typography variant="h5" className="black-text align-right">
                         Drive through the gate on a dirt road. Please close gate after passing through. 
                         <br  />
                         <i>Junction 1: Right </i>

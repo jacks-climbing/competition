@@ -65,6 +65,10 @@ a{
     text-align: left;
 }
 
+.align-right{
+    text-align: right;
+}
+
 .image-contained{
     width:100%;
     vertical-align: center;
@@ -208,5 +212,20 @@ th, td {
 }
 
 
+/* Camping */
 
-
+#camping
+{
+    padding: 100px;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    background-position: absolute;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0, 0, 0, 0.4)), url("images/tent.jpg");
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+     
+}
