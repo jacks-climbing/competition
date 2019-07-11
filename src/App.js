@@ -8,6 +8,7 @@ import Rules from './components/rules';
 import Routes from './components/routes';
 import Directions from './components/directions';
 import Camping from './components/camping';
+import Sponsors from './components/sponsors';
 
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
       </div>
       <div id="camping-info">
         <Camping />
+      </div>
+      <div id="sponsors">
+        <Sponsors />
       </div>
     </div>
   );

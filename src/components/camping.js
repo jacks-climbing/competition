@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCampground } from '@fortawesome/free-solid-svg-icons'
 
-function Routes() {
+function Camping() {
     return(
         <div id="camping">
             <Grid container spacing={3}>
@@ -32,4 +32,4 @@ function Routes() {
     )
 }
 
-export default Routes
+export default Camping;
