@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import jacks_directions from '../images/jacks_directions.png';
-import jacks_camping from '../images/jacks_camping.png';
+import jacks_camping from '../images/jacks_canyon.png';
 import Typography from '@material-ui/core/Typography';
 
 function Directions() {
