@@ -14,6 +14,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSignInAlt, faCampground, faClipboard, faListUl, faSmile, faDirections, faQuestionCircle, faHome } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const useStyles = makeStyles({
@@ -99,6 +100,12 @@ export default function TemporaryDrawer() {
           >
             <MenuIcon />
           </IconButton>
+          <Button href="" target="#">
+            <FontAwesomeIcon className="social-media" icon={faFacebook} size="2x" />
+          </Button>
+          <Button href="" target="#">
+            <FontAwesomeIcon className="social-media" icon={faInstagram} size="2x" />
+          </Button>
         </Toolbar>
       </AppBar>
       <main
