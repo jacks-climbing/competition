@@ -13,7 +13,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSignInAlt, faCampground, faClipboard, faListUl, faSmile, faDirections, faQuestionCircle, faHome } from '@fortawesome/free-solid-svg-icons'
+import { faSignInAlt, faCampground, faClipboard, faListUl, faSmile, faDirections, faQuestionCircle, faHome, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -100,11 +100,14 @@ export default function TemporaryDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          <Button href="" target="#">
+          <Button href="" target="blank">
             <FontAwesomeIcon className="social-media" icon={faFacebook} size="2x" />
           </Button>
-          <Button href="" target="#">
+          <Button href="" target="blank">
             <FontAwesomeIcon className="social-media" icon={faInstagram} size="2x" />
+          </Button>
+          <Button href = "malito:" target = "blank">
+            <FontAwesomeIcon className="social-media" icon={faEnvelope} size="2x" />
           </Button>
         </Toolbar>
       </AppBar>

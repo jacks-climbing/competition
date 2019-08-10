@@ -90,7 +90,18 @@ a{
 }
 
 
+/* About */
+.friday {
+    background-color: '#ff984a';
+}
 
+.sat {
+    background-color: '#ff6d00';
+}
+
+.sun {
+    background-color: '#964100';
+}
 
 /* Registration page */
 
@@ -191,14 +202,20 @@ th, td {
     color:rgba(255,109,0)
 }
 
+/* Directions */
 
+#directions
+{
+    padding-bottom:150px;
+}
 
 
 /* Camping */
 
 #camping
 {
-    padding: 100px;
+    padding: 150px;
+    padding-bottom: 250px;
     left: 0;
     line-height: 200px;
     margin-top: -100px;
@@ -211,3 +228,4 @@ th, td {
     background-attachment: fixed;  
      
 }
+

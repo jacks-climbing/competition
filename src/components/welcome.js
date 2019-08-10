@@ -7,6 +7,8 @@ function Welcome(){
             <br />
             Jacks O' Lantern 
             <br/>
+            Second Annual
+            <br />
             Climbing Competition
             </h1>
             <h2>Jacks Canyon, Arizona | October 26, 2019</h2>

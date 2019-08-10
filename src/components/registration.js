@@ -21,9 +21,9 @@ function Registration() {
                     <td>October 26</td>
                 </tr>
                 <tr>
+                    <td>$10</td>
                     <td>$15</td>
                     <td>$20</td>
-                    <td>$25</td>
                 </tr>
                 </table>
                 </Typography>
