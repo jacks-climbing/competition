@@ -29,7 +29,7 @@ function About() {
     const classes = useStyles();
     return(
         <div className="white-background-div">
-            <Typography variant="h2" className="white-background-text">
+            <Typography variant="h2" className="white-background-text" style={{marginBottom:"10px"}}>
                 About
             </Typography>
             <br/>
@@ -43,13 +43,13 @@ function About() {
             <br/>
             <br />
             <br />
-            <Typography variant="h2" className="white-background-text">
+            <Typography variant="h2" className="white-background-text" style={{marginBottom:"20px"}}>
                 Categories
             </Typography>
             <br />
             <center>
         <div className = 'row'>
-            <div className = 'col s12'>
+            <div className = 'col s12 align-left'>
             <Card className={classes.card}>
                     <CardContent>
                         <Typography variant="h5" className="white-background-text">
@@ -78,11 +78,9 @@ function About() {
     Please do not sign up for a category below your best outdoor red point. Be honest and try hard.
     Note that your category will be bumped up if your score sheet relects a harder category.
             </Typography>
-                
-   
-
-
-
+            <Typography variant="h2" className="white-background-text" style={{marginTop:"80px"}}>
+                Itinerary
+            </Typography>
             <Itinerary />
         </div>
     )

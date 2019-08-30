@@ -49,7 +49,7 @@ function Itinerary() {
   
                 <Grid container spacing={3}>
                     
-                    <Grid item xs>
+                    <Grid item xs={12} sm={4}>
                         <Card className={classes.card}>
                             <CardHeader className = {classes.friday}
                             title="Friday"
@@ -62,7 +62,7 @@ function Itinerary() {
                         </Card>
                     </Grid>
 
-                    <Grid item xs>
+                    <Grid item xs={12} sm={4}>
                         <Card className={classes.card}>
                             <CardHeader className = {classes.sat}
                             title="Saturday"
@@ -85,7 +85,7 @@ function Itinerary() {
                         </Card>
                     </Grid>
 
-                    <Grid item xs>
+                    <Grid item xs={12} sm={4}>
                         <Card className={classes.card}>
                             <CardHeader className = {classes.sun}
                             title="Sunday"
