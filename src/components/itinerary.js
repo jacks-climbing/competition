@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
   card: {
     maxWidth: 345,
     minWidth: 300,
-    height: 250,
+    height: 450,
 
     fontColor:'#ba0a0a',
     fontSize:'14px',
@@ -37,6 +37,7 @@ const useStyles = makeStyles(theme => ({
         backgroundColor:'#b54e00',
         textAlign: 'center',
     },
+
 }));
 
   
@@ -45,7 +46,7 @@ function Itinerary() {
     const classes = useStyles();
     return(
         <div className="white-background-div">
-            <div className={classes.root}>
+  
                 <Grid container spacing={3}>
                     
                     <Grid item xs>
@@ -55,7 +56,7 @@ function Itinerary() {
                             />
                             <CardContent>
                                 <Typography component="p">
-                                7pm Climber Games
+                                7pm <div className = 'float-right'>Climber Games</div>
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -68,10 +69,17 @@ function Itinerary() {
                             />
                             <CardContent>
                                 <Typography component="p">
-                                8am Yoga <hr />
-                                12pm Advanced/Intermediate Start <hr />
-                                8pm Beginner Start <hr />
-                                Midnight cease climbing
+                                8am <div className = 'float-right'>Yoga </div>
+                                <hr /><hr />
+                                <center><b>Totally Jacked/Jacked Up</b></center> <br />
+                                11:30am <div className = 'float-right'>Rules and Comp Info</div><br />
+                                12pm <div className = 'float-right'>Start Competition</div><hr />
+                                <center><b>Jack of All Trades/Jack Splat</b></center> <br />
+                                3:30pm <div className = 'float-right'>Rules and Comp Info</div><br />
+                                5pm <div className = 'float-right'>Start Competition</div>
+                                <hr /><hr />
+                                12am <div className = 'float-right'>End of Competition </div><hr />
+                                12:30am <div className = 'float-right'>Submit Score Cards</div>
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -84,16 +92,16 @@ function Itinerary() {
                             />
                             <CardContent>
                                 <Typography component="p">
-                                8am Yoga <hr />
-                                9am Group Breakfast <hr />
-                                11am Access Fund Raffle
+                                8am <div className = 'float-right'>Yoga</div> <hr />
+                                9am <div className = 'float-right'>Group Breakfast</div> <hr />
+                                10am <div className = 'float-right'>Access Fund Raffle</div>
                                 </Typography>
                             </CardContent>
                         </Card>
                     </Grid>
                 </Grid>
         </div>
-    </div>
+
     )
 }
 

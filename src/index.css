@@ -70,6 +70,14 @@ a{
     text-align: right;
 }
 
+.float-right{
+    float:right;
+}
+
+.float-left{
+    float:left;
+}
+
 .image-contained{
     width:100%;
     vertical-align: center;
@@ -102,6 +110,10 @@ a{
 .sun {
     background-color: '#964100';
 }
+
+@media screen and (max-width: 768px) {
+     .friday {height:50px;}
+     }
 
 /* Registration page */
 
@@ -228,4 +240,3 @@ th, td {
     background-attachment: fixed;  
      
 }
-

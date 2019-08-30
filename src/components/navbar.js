@@ -103,7 +103,7 @@ export default function TemporaryDrawer() {
           <Button href="" target="blank">
             <FontAwesomeIcon className="social-media" icon={faFacebook} size="2x" />
           </Button>
-          <Button href="" target="blank">
+          <Button href="https://www.instagram.com/jacks.o.lantern/" target="blank">
             <FontAwesomeIcon className="social-media" icon={faInstagram} size="2x" />
           </Button>
           <Button href = "malito:" target = "blank">
