@@ -27,6 +27,7 @@ const useStyles = makeStyles(theme => ({
   friday: {
       backgroundColor:'#ff984a',
       textAlign: 'center',
+      fontSize: '20px',
   },
   sat: {
     backgroundColor:'#ff6d00',
@@ -70,7 +71,7 @@ function Itinerary() {
                                 8am Yoga <hr />
                                 12pm Advanced/Intermediate Start <hr />
                                 8pm Beginner Start <hr />
-                                Midnight! Cease climbing
+                                Midnight cease climbing
                                 </Typography>
                             </CardContent>
                         </Card>
