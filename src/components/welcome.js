@@ -1,5 +1,6 @@
 import React from 'react';
 import Media from 'react-media';
+
 function Welcome(){
     return(
         <div id="title">

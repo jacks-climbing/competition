@@ -20,22 +20,23 @@ function Directions() {
                 <img src={jacks_directions} alt = 'directions to jacks canyon' className = 'image-contained' />
                 <br /> <br />
                     <Typography variant="h5" className="black-text">
-                    <b>From Phoenix:</b> Drive north on Highway 87. Turn left 0.7 miles past mile marker 31?.
+                    If using Google Maps, navigate to <a href="https://goo.gl/maps/TK6684iyyDNiknXY7">Jacks Canyon Campground</a>.<br/>
+                    <b>From Phoenix:</b> Drive north on Highway 87. Turn left on the dirt road at the following GPS Coordinates: <a href="https://goo.gl/maps/62c8SxyH5n9iuPkb6">34°44'33.2"N 111°03'08.3"W</a>
                     <br /> <br />
-                    <b>From Flagstaff:</b> Head east to Winslow. From Winslow, drive south on Highway 87. Turn right 0.3 miles past mile marker 314.
+                    <b>From Flagstaff:</b> Head east to Winslow. From Winslow, drive south on Highway 87. Turn right 0.3 miles past mile marker 314, at the same coordinates described, above.
                     </Typography>
                     <br /> <br />
                     <img src={jacks_camping} alt = 'directions to jacks canyon2' className = 'image-contained' />
                     <br /> <br />
 
                     <Typography variant="h5" className="black-text align-right">
-                        Drive through the gate on a dirt road. Please close gate after passing through. 
+                        After turning onto the dirt road, pass through the gate - please close the gate behind you. 
                         <br  />
-                        <i>Junction 1: Right </i>
+                        <i>Junction 1: Turn right </i>
                         <br /> 
-                        <i>Junction 2: Left</i>
+                        <i>Junction 2: Turn left</i>
                         <br /> 
-                        <i>Junction 3: Right</i>
+                        <i>Junction 3: Turn right</i>
                     </Typography>
                     
 

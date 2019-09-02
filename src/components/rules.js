@@ -42,7 +42,7 @@ function Rules() {
                         Rules
                     </Typography>
                     
-                    <Typography variant="h6">
+                    <Typography variant="body1" align="left">
                     <br/>
                         <FontAwesomeIcon icon={faHandPointRight} /> <b>Score Points</b> by leading a clean ascent. You can climb each pitch twice. Both your score and your partners will count toward your team's total. <br />
                         <FontAwesomeIcon icon={faHandPointRight} /> <b>Don't</b> French freeing or victory whips. You must clip the anchors and be in full control. <br />
@@ -55,7 +55,6 @@ function Rules() {
                         <FontAwesomeIcon icon={faHandPointRight} /> Not following the above rules may result in disqualification<br />
 
 
-                        
                     </Typography>
                     </Paper>
                     <br /><br />
@@ -63,7 +62,7 @@ function Rules() {
                     <Typography variant="h3" className="white-background-text">
                         Crag Stewardship
                     </Typography>
-                    <Typography variant="h6">
+                    <Typography variant="h6" align="left">
                         <br/>
                         <FontAwesomeIcon icon={faLeaf} /> <b>Leave No Trace Ethics</b> are a mandatory comp requirement <br />
                         <FontAwesomeIcon icon={faLeaf} /> <b>Pack it out.</b> Pack out all trash and feces. There is an outhouse at the rim of the canyon.<br />
@@ -72,10 +71,6 @@ function Rules() {
                         <FontAwesomeIcon icon={faLeaf} /> <b>Stay on trails</b> whenever possible<br />
                         <FontAwesomeIcon icon={faLeaf} /> <b>Erase tick marks</b> <br />
                         <FontAwesomeIcon icon={faLeaf} /> <b>Share campfires and extinguish them completely</b>
-
-
-
-
                     </Typography>
                     </Paper>
 
