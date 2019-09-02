@@ -306,3 +306,12 @@ th, td {
     background-attachment: fixed;  
      
 }
+/* Sponsor */
+.design-div {
+    width:100%;
+    padding:10px;
+    overflow:hidden;
+    color:grey;
+    text-align:center;
+    font-family:'American Typewriter';
+}
