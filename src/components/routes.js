@@ -14,7 +14,7 @@ function Routes() {
                 <br />
                 <a target = "blank" href = "#">
                     <button style={ { margin:"auto" } } id="route-button">
-                        Competition Scoresheet
+                        Competition Scoresheet (coming soon)
                     </button>
                 </a>
                 <br/>
