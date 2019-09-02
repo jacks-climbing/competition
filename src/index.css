@@ -18,11 +18,20 @@ h1 {
     color: whitesmoke;
 }
 
+h1.sm {
+    text-align: right;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 50pt;
+    color: whitesmoke;
+    line-height:50pt;
+}
+
 h2 {
     text-align: right;
     font-family: American Typewriter;
     font-size: 20pt;
     color: whitesmoke;
+    line-height: 40px;
     
 }
 
