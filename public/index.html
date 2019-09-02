@@ -7,8 +7,7 @@
     <meta name="theme-color" content="#000000" />
 
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Import materialize.css -->
-    <link href="CDN OR PATH TO NODE_MODULES.css" rel="stylesheet">
+
 
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -16,7 +15,11 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa&display=swap" rel="stylesheet">
-
+      <!-- Import materialize.css -->  
+    <link rel="stylesheet" href="../src/style_files/materialize.css">
+    <link rel="stylesheet" href="../src/style_files/materialize.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -42,8 +45,8 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
       <!-- Import materialize.js -->
-  <script src="CDN OR PATH TO NODE_MODULES.js"></script>
+      <script type="text/javascript" src="../src/style_files/materialize.js"></script>
+      <script type="text/javascript" src="../src/style_files/materialize.min.js"></script>
   <!-- And then your bundled js -->
-  <script src="path/to/your/bundle.js"></script>
   </body>
 </html>

@@ -2,14 +2,14 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Itinerary from './itinerary';
 import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
+import Media from 'react-media';
+
 
 
 import Card from '@material-ui/core/Card';
 
 import CardContent from '@material-ui/core/CardContent';
 
-import { Row, Col } from 'react-materialize';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -47,41 +47,83 @@ function About() {
                 Categories
             </Typography>
             <br />
-            <center>
-        <div className = 'row'>
-            <div className = 'col s12 align-left'>
-            <Card className={classes.card}>
-                    <CardContent>
-                        <Typography variant="h5" className="white-background-text">
-                        <div className = 'float-left'><b>Jack Splat</b></div> 
-                        <div className = 'float-right'>Up to 5.9</div>
-                        <br /><hr/>
-                        <div className = 'float-left'><b>Jack of All Trades</b></div> 
-                        <div className = 'float-right'>Up to 5.10d</div>
-                        <br /><hr/>
-                        <div className = 'float-left'><b>Jacked Up</b></div> 
-                        <div className = 'float-right'>Up to 5.12a</div>
-                        <br /><hr/>
-                        <div className = 'float-left'><b>Totally Jacked</b></div> 
-                        <div className = 'float-right'>5.12b and up</div>
-                        <br />
-                        </Typography>
-                    </CardContent>
-                    </Card>
+
+        <Media query="(max-width: 599px)">
+          {matches =>
+            matches ? (
+                <div className ='center-text'>
+                <Card className={classes.card}>
+                <CardContent>
+                    <Typography variant="h5" className="white-background-text">
+                    <div className = 'float-left'><b>Jack Splat</b></div> 
+                    <div className = 'float-right'>Up to 5.9</div>
+                    <br /><hr/>
+                    <div className = 'float-left'><b>Jack of All Trades</b></div> 
+                    <div className = 'float-right'>Up to 5.10d</div>
+                    <br /><hr/>
+                    <div className = 'float-left'><b>Jacked Up</b></div> 
+                    <div className = 'float-right'>Up to 5.12a</div>
+                    <br /><hr/>
+                    <div className = 'float-left'><b>Totally Jacked</b></div> 
+                    <div className = 'float-right'>5.12b and up</div>
+                    <br />
+                    </Typography>
+                </CardContent>
+                </Card>
+                <br /><br />
+                <Typography variant="h5" className="white-background-text">
+                Categories are based on the hardest outdoor red point of either partner in the past two years. For example, if you red point 5.11a then you should be in “Jacked Up.” 
+                Please do not sign up for a category below your best outdoor red point. Be honest and try hard.
+                Note that your category will be bumped up if your score sheet relects a harder category.
+                </Typography>
                 </div>
+                
+            ) : (
+                <div>
+                    <div className ='float-left2'>
+                    <Card className={classes.card}>
+                <CardContent>
+                    <Typography variant="h5" className="white-background-text">
+                    <div className = 'float-left'><b>Jack Splat</b></div> 
+                    <div className = 'float-right'>Up to 5.9</div>
+                    <br /><hr/>
+                    <div className = 'float-left'><b>Jack of All Trades</b></div> 
+                    <div className = 'float-right'>Up to 5.10d</div>
+                    <br /><hr/>
+                    <div className = 'float-left'><b>Jacked Up</b></div> 
+                    <div className = 'float-right'>Up to 5.12a</div>
+                    <br /><hr/>
+                    <div className = 'float-left'><b>Totally Jacked</b></div> 
+                    <div className = 'float-right'>5.12b and up</div>
+                    <br />
+                    </Typography>
+                </CardContent>
+                </Card>
                 </div>
-                </center>
-            <br/><br/>
+                <div className = 'float-right2'>
+                <Typography variant="h5" className="white-background-text">
+                Categories are based on the hardest outdoor red point of either partner in the past two years. For example, if you red point 5.11a then you should be in “Jacked Up.” 
+                Please do not sign up for a category below your best outdoor red point. Be honest and try hard.
+                Note that your category will be bumped up if your score sheet relects a harder category.
+                </Typography>
+                </div>
+                <hr />
+                </div>
+                
+            )
+          }
+        </Media>
+         
+           
             
-            <Typography variant="h5" className="white-background-text">
-            Categories are based on the hardest outdoor red point of either partner in the past two years. For example, if you red point 5.11a then you should be in “Jacked Up.” 
-    Please do not sign up for a category below your best outdoor red point. Be honest and try hard.
-    Note that your category will be bumped up if your score sheet relects a harder category.
-            </Typography>
-            <Typography variant="h2" className="white-background-text" style={{marginTop:"80px"}}>
+        <div>
+
+            <Typography variant="h2" className="white-background-text" style={{marginTop:"100px"}}>
                 Itinerary
             </Typography>
             <Itinerary />
+
+            </div>
         </div>
     )
 }

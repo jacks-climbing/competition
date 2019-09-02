@@ -78,10 +78,30 @@ a{
     float:left;
 }
 
+.float-right2{
+    float:right;
+    width:50%;
+}
+
+.float-left2{
+    float:left;
+    width:50%;
+}
+
+
 .image-contained{
     width:100%;
     vertical-align: center;
 }
+
+.inline-div{
+    display:block;
+}
+
+.foat-center{
+    float:center;
+}
+
 
 /* White Divider pages */
 
@@ -93,7 +113,7 @@ a{
 }
 
 .white-background-text {
-    text-align:left;
+    text-align:center;
     color:black;
 }
 
@@ -111,9 +131,7 @@ a{
     background-color: '#964100';
 }
 
-@media screen and (max-width: 768px) {
-     .friday {height:50px;}
-     }
+
 
 /* Registration page */
 
