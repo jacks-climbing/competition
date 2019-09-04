@@ -100,13 +100,13 @@ export default function TemporaryDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          <Button href="" target="blank">
+          <Button href="https://www.facebook.com/events/367701234153798/?notif_t=plan_user_invited&notif_id=1567140802619058" target="blank">
             <FontAwesomeIcon className="social-media" icon={faFacebook} size="2x" />
           </Button>
           <Button href="https://www.instagram.com/jacks.o.lantern/" target="blank">
             <FontAwesomeIcon className="social-media" icon={faInstagram} size="2x" />
           </Button>
-          <Button href = "malito:" target = "blank">
+          <Button href = "malito:jacks.o.lantern.comp@gmail.com" target = "blank">
             <FontAwesomeIcon className="social-media" icon={faEnvelope} size="2x" />
           </Button>
         </Toolbar>

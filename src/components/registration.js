@@ -13,6 +13,9 @@ function Registration() {
                 <Typography variant="h2" className='center-text'>
                     2019 Registration
                 </Typography>
+                <Typography variant="h4" className='sm'>
+                    (priced per individual)
+                </Typography>
             <Typography variant="h4" className = 'sm'>
                 <table className = 'sm'>
                 <tr>
@@ -45,6 +48,9 @@ function Registration() {
                 <div id = 'signup-div-left'>
                 <Typography variant="h2" className='center-text'>
                     2019 Registration
+                </Typography>
+                <Typography variant="h4" className='center-text'>
+                    (priced per individual)
                 </Typography>
                   <Typography variant="h4">
                 <table>
