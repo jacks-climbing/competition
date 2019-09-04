@@ -29,6 +29,8 @@ function About() {
     const classes = useStyles();
     return(
         <div className="white-background-div">
+            <Card style={{ paddingTop: "100px", paddingBottom: "100px"}}>
+                <CardContent>
             <Typography variant="h2" className="white-background-text" style={{marginBottom:"10px"}}>
                 About
             </Typography>
@@ -40,13 +42,17 @@ function About() {
                 <br />
                 This event is brought to you by Bad Bolt Climbing.
             </Typography>
+            </CardContent>
+            </Card>
             <br/>
             <br />
             <br />
-            <Typography variant="h2" className="white-background-text" style={{marginBottom:"20px"}}>
+            <Card style={{ paddingTop: "100px", paddingBottom: "100px"}}>
+                <CardContent>
+            <Typography variant="h2" className="white-background-text" style={{marginBottom:"100px"}}>
                 Categories
             </Typography>
-            <br />
+            
 
         <Media query="(max-width: 599px)">
           {matches =>
@@ -71,7 +77,7 @@ function About() {
                 </CardContent>
                 </Card>
                 <br /><br />
-                <Typography variant="h5" className="white-background-text">
+                <Typography variant="h5" className="white-background-text" align="left">
                 Categories are based on the hardest outdoor red point of either partner in the past two years. For example, if you red point 5.11a then you should be in “Jacked Up.” 
                 Please do not sign up for a category below your best outdoor red point. Be honest and try hard.
                 Note that your category will be bumped up if your score sheet relects a harder category.
@@ -101,28 +107,31 @@ function About() {
                 </Card>
                 </div>
                 <div className = 'float-right2'>
-                <Typography variant="h5" className="white-background-text">
+                <Typography variant="h5" className="white-background-text" align="left">
                 Categories are based on the hardest outdoor red point of either partner in the past two years. For example, if you red point 5.11a then you should be in “Jacked Up.” 
                 Please do not sign up for a category below your best outdoor red point. Be honest and try hard.
                 Note that your category will be bumped up if your score sheet relects a harder category.
                 </Typography>
                 </div>
-                <hr />
+                
                 </div>
                 
             )
           }
         </Media>
          
-           
+           </CardContent>
+           </Card>
             
         <div>
-
+        <Card style={{ paddingTop: "100px", paddingBottom: "100px"}}>
+                <CardContent>
             <Typography variant="h2" className="white-background-text" style={{marginTop:"100px"}}>
                 Itinerary
             </Typography>
             <Itinerary />
-
+            </CardContent>
+            </Card>
             </div>
         </div>
     )

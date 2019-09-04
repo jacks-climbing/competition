@@ -25,8 +25,6 @@ const useStyles = makeStyles(theme => ({
 
 
 
-
-
 function Rules() {
     const classes = useStyles();
     return(
@@ -42,7 +40,7 @@ function Rules() {
                         Rules
                     </Typography>
                     
-                    <Typography variant="body1" align="left">
+                    <Typography variant="body1">
                     <br/>
                         <FontAwesomeIcon icon={faHandPointRight} /> <b>Score Points</b> by leading a clean ascent. You can climb each pitch twice. Both your score and your partners will count toward your team's total. <br />
                         <FontAwesomeIcon icon={faHandPointRight} /> <b>Don't</b> French freeing or victory whips. You must clip the anchors and be in full control. <br />

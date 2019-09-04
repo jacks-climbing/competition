@@ -106,7 +106,7 @@ export default function TemporaryDrawer() {
           <Button href="https://www.instagram.com/jacks.o.lantern/" target="blank">
             <FontAwesomeIcon className="social-media" icon={faInstagram} size="2x" />
           </Button>
-          <Button href = "malito:jacks.o.lantern.comp@gmail.com" target = "blank">
+          <Button href = "mailto:jacks.o.lantern.comp@gmail.com" target = "blank">
             <FontAwesomeIcon className="social-media" icon={faEnvelope} size="2x" />
           </Button>
         </Toolbar>
