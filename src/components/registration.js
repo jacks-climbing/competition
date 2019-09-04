@@ -32,7 +32,7 @@ function Registration() {
                 </tr>
                 </table>
                 </Typography>
-                <a href="https://docs.google.com/forms/d/1FNyLfm4el5N7c6ufBUj0-AJMG-hXRUn_rqgRS_1LtiE/prefill" target = 'blank'>
+                <a href="https://www.eventbrite.com/e/jacks-o-lantern-2019-tickets-9686652037" target = 'blank'>
                 <button id="signup-buttonsm">
                     Sign Up
                 </button>
@@ -65,7 +65,7 @@ function Registration() {
                 </tr>
                 </table>
                 </Typography>
-                <a href="https://docs.google.com/forms/d/1FNyLfm4el5N7c6ufBUj0-AJMG-hXRUn_rqgRS_1LtiE/prefill" target = 'blank'>
+                <a href="https://www.eventbrite.com/e/jacks-o-lantern-2019-tickets-9686652037" target = 'blank'>
                 <button id="signup-button">
                     Sign Up
                 </button>

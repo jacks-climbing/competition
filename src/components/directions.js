@@ -21,7 +21,7 @@ function Directions() {
                 <br /> <br />
                     <Typography variant="h5" className="black-text">
                     If using Google Maps, navigate to <a href="https://goo.gl/maps/TK6684iyyDNiknXY7">Jacks Canyon Campground</a>.<br/>
-                    <b>From Phoenix:</b> Drive north on Highway 87. Turn left on the dirt road at the following GPS Coordinates: <a href="https://goo.gl/maps/62c8SxyH5n9iuPkb6">34°44'33.2"N 111°03'08.3"W</a>
+                    <b>From Phoenix:</b> Drive north on Highway 87 past Payson. Turn left on the dirt road at the following GPS Coordinates: <a href="https://goo.gl/maps/62c8SxyH5n9iuPkb6">34°44'33.2"N 111°03'08.3"W</a>
                     <br /> <br />
                     <b>From Flagstaff:</b> Head east to Winslow. From Winslow, drive south on Highway 87. Turn right 0.3 miles past mile marker 314, at the same coordinates described, above.
                     </Typography>
@@ -30,13 +30,15 @@ function Directions() {
                     <br /> <br />
 
                     <Typography variant="h5" className="black-text align-right">
-                        After turning onto the dirt road, pass through the gate - please close the gate behind you. 
-                        <br  />
-                        <i>Junction 1: Turn right </i>
+                        Drive through the gate on a dirt road. Please close gate after passing through. Follow the main dirt road to the campground (see map and description below).
+                        The trail into the canyon and to the base of the climbs begins at the campground. Sign in and meet prior to your start time at the table set up at the campground.
+                        <br  /><br />
+                        More detailed directions from the gate to the campground: <br />
+                        Junction 1: Right
                         <br /> 
-                        <i>Junction 2: Turn left</i>
+                        Junction 2: Left
                         <br /> 
-                        <i>Junction 3: Turn right</i>
+                        Junction 3: Right
                     </Typography>
                     
 
@@ -49,10 +51,12 @@ function Directions() {
                     <img src={jacks_directions} alt = 'directions to jacks canyon' className = 'image-contained' />
                 </Grid>
                 <Grid item xs>
-                    <Typography variant="h5" className="black-text">
-                    <b>From Phoenix:</b> Drive north on Highway 87. Turn left 0.7 miles past mile marker 31?.
+                <Typography variant="h5" className="black-text">
+                    If using Google Maps, navigate to <a href="https://goo.gl/maps/TK6684iyyDNiknXY7">Jacks Canyon Campground</a>.<br/>
+                    <br />
+                    <b>From Phoenix:</b> Drive north on Highway 87 past Payson. Turn left on the dirt road at the following GPS Coordinates: <a href="https://goo.gl/maps/62c8SxyH5n9iuPkb6">34°44'33.2"N 111°03'08.3"W</a>
                     <br /> <br />
-                    <b>From Flagstaff:</b> Head east to Winslow. From Winslow, drive south on Highway 87. Turn right 0.3 miles past mile marker 314.
+                    <b>From Flagstaff:</b> Head east to Winslow. From Winslow, drive south on Highway 87. Turn right 0.3 miles past mile marker 314, at the same coordinates listed, above.
                     </Typography>
                 </Grid>
             </Grid>
@@ -60,13 +64,15 @@ function Directions() {
             <Grid container spacing={3}>
                 <Grid item xs>
                     <Typography variant="h5" className="black-text align-right">
-                        Drive through the gate on a dirt road. Please close gate after passing through. 
-                        <br  />
-                        <i>Junction 1: Right </i>
+                        Drive through the gate on a dirt road. Please close gate after passing through. Follow the main dirt road to the campground (see map and description below).
+                        The trail into the canyon and to the base of the climbs begins at the campground. Sign in and meet prior to your start time at the table set up at the campground.
+                        <br  /><br />
+                        More detailed directions from the gate to the campground: <br />
+                        Junction 1: Right
                         <br /> 
-                        <i>Junction 2: Left</i>
+                        Junction 2: Left
                         <br /> 
-                        <i>Junction 3: Right</i>
+                        Junction 3: Right
                     </Typography>
                 </Grid>
                 <Grid item xs>
