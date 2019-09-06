@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/competition/static/css/main.7bf7f7b2.chunk.css",
+    "main.js": "/competition/static/js/main.f1a623fe.chunk.js",
+    "main.js.map": "/competition/static/js/main.f1a623fe.chunk.js.map",
+    "runtime~main.js": "/competition/static/js/runtime~main.41222a3c.js",
+    "runtime~main.js.map": "/competition/static/js/runtime~main.41222a3c.js.map",
+    "static/js/2.802f2739.chunk.js": "/competition/static/js/2.802f2739.chunk.js",
+    "static/js/2.802f2739.chunk.js.map": "/competition/static/js/2.802f2739.chunk.js.map",
+    "index.html": "/competition/index.html",
+    "precache-manifest.7edc403d475e76406b73da699132326e.js": "/competition/precache-manifest.7edc403d475e76406b73da699132326e.js",
+    "service-worker.js": "/competition/service-worker.js",
+    "static/css/main.7bf7f7b2.chunk.css.map": "/competition/static/css/main.7bf7f7b2.chunk.css.map",
+    "static/media/index.css": "/competition/static/media/tent.24add64a.jpg",
+    "static/media/jacks_canyon.png": "/competition/static/media/jacks_canyon.1bbd74a3.png",
+    "static/media/jacks_directions.png": "/competition/static/media/jacks_directions.7a3ce9a3.png"
+  }
+}
