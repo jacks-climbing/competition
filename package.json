@@ -2,16 +2,15 @@
   "name": "jack-off",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jacks-climbing.github.io/competition",
+  "homepage": "http://jacks-climbing.github.io/competition/",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/fontawesome- adsw wdasvg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.10.0",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@material-ui/core": "^4.1.0",
     "@material-ui/icons": "^4.1.0",
     "create-react-app": "^3.1.1",
-    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-materialize": "^3.3.5",
@@ -43,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
