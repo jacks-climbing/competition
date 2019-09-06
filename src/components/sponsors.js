@@ -10,7 +10,7 @@ function Sponsors() {
             <br /> <br />
                     
             <Typography variant="h6" className="center-text black-text">
-                Contact <a href='malito:jacks.o.lantern.comp@gmail.com'>jacks.o.lantern.comp@gmail.com</a> to sponsor the Jacks O Lantern Climbing Fest
+                Contact <a href='mailto:jacks.o.lantern.comp@gmail.com'>jacks.o.lantern.comp@gmail.com</a> to sponsor the Jacks O Lantern Climbing Fest
                 <br /> <br /> <br />
             </Typography>
             <div className = 'design-div'>
