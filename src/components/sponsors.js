@@ -15,7 +15,6 @@ function Sponsors() {
             </Typography>
             <div className = 'design-div'>
 
-                <i>Website Design by Ryan and Megs</i>
             </div>
         </div>
     )
