@@ -2,7 +2,7 @@
   "name": "jack-off",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jacks-climbing.github.io/competition",
+  "homepage": "http://jacks-climbing.github.io/competition",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.10.0",
